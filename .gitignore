@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller / Build outputs
+build/
+dist/
+dist_installer/
+*.spec
+!K-Bridge.spec
+
+# Executables & Installer binaries
+tesseract/
+output_epubs/
+test_out/
+*.exe
+*.dll
+
+# User configurations & history
+config.json
+session_queue.json
+queue_history.json
+
+# Scratch and temp files
+scratch/
+*.tmp
+*.temp
+*.log
+.perm_check.tmp
+*.lnk
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
